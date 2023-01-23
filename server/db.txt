@@ -1,0 +1,6 @@
+shubham
+123456S
+
+mongodb+srv://shubham:123456S@cluster0.ugbzejg.mongodb.net/docAppointment?retryWrites=true&w=majority
+
+MongoDB_URL = mongodb+srv://shubham:123456S@cluster0.ugbzejg.mongodb.net/docAppointment?retryWrites=true&w=majority
