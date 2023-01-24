@@ -9,27 +9,21 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const app = express();
-
+ 
 const PORT = process.env.PORT;
 
 dbConfig();
 
-app.use(cors({origin: true , credentials: true}));
+app.use(cors({ origin: true, credentials: true }));
 
-app.use(express.json({extended: false}));
-
+app.use(express.json({ extended: false }));
 
 const user = require("./routes/userRoute.js");
 
-app.get('/', (req, res) => res.send('Server is running'));
+app.get("/", (req, res) => res.send("Server is running"));
 
 app.use("/api/user", user);
 
-
 app.listen(PORT, () =>
-
-    console.log(`server is running on http://localhost:${PORT}`)
+  console.log(`server is running on http://localhost:${PORT}`)
 );
-
-
-

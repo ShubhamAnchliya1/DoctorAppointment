@@ -4,3 +4,14 @@ shubham
 mongodb+srv://shubham:123456S@cluster0.ugbzejg.mongodb.net/docAppointment?retryWrites=true&w=majority
 
 MongoDB_URL = mongodb+srv://shubham:123456S@cluster0.ugbzejg.mongodb.net/docAppointment?retryWrites=true&w=majority
+
+
+
+
+
+http://localhost:5000/api/user/signup
+{
+    "name": "Shubham",
+    "email": "testuser21@mailinator.com",
+    "password": "Pass@word1"
+}
